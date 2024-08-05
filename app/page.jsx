@@ -4,6 +4,9 @@ import { useEffect } from "react";
 import Hero from "@/components/Hero";
 import Explore from "@/components/Explore";
 import About from "@/components/About";
+import Menu from "@/components/Menu";
+import Testimonials from "@/components/Testimonials";
+import OpeningHours from "@/components/OpeningHours";
 
 const Home = () => {
   // add locomotive scroll
@@ -18,10 +21,12 @@ const Home = () => {
   return (
     <div className="h-full overflow-x-hidden">
       <Hero />
-      <Explore/>
-      <About/>
+      <Explore />
+      <About />
+      <Menu />
+      <Testimonials/>
+      <OpeningHours/>
       {/* temp div */}
-      <div className="h-[4000px]"></div>
     </div>
   );
 };
