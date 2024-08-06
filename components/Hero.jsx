@@ -4,7 +4,7 @@ import Badge from "./Badge";
 
 const Hero = () => {
   return (
-    <section className="h-[80vh] xl:h-screen relative text-white">
+    <section className="h-[100vh] xl:h-screen relative text-white">
       {}
       <div className="bg-hero_overlay absolute w-full h-full z-10 bg-primary/[0.93]">
         {/* s */}
@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="flex flex-col items-center">
             <Badge containerStyles="hidden xl:flex xl:w-[180px] xl:h-[180px]" />
             <h1 className="h1 text-white">
-              <span className="text-accent">Coffe</span>& Joy
+              <span className="text-accent">Kopi</span>& Sean
             </h1>
           </div>
           {/* separator */}
@@ -38,7 +38,9 @@ const Hero = () => {
             Experience the joy of exceptional coffee in our cozy space, where
             every cup is crafted with passion and warmth
           </p>
-          <button className="btn"> Our menu</button>
+          <a href="#menu">
+            <button className="btn btn-lg">Our Menu</button>
+          </a>
         </div>
       </div>
     </section>

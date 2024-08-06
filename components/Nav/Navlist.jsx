@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const links = [
   { href: "/", name: "Home" },
-  { href: "/", name: "Explore" },
-  { href: "/", name: "About" },
-  { href: "/", name: "Menu" },
-  { href: "/", name: "Contact" },
+  { href: "#explore", name: "Explore" },
+  { href: "#about", name: "About" },
+  { href: "#menu", name: "Menu" },
+  { href: "/contact", name: "Contact" },
 ];
 
 const letterAnim = {

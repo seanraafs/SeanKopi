@@ -5,11 +5,12 @@ import { FaYoutube, FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 
 const links = [
   { href: "/", name: "Home" },
-  { href: "/", name: "Explore" },
-  { href: "/", name: "About" },
-  { href: "/", name: "Menu" },
-  { href: "/", name: "Contact" },
+  { href: "#explore", name: "Explore" },
+  { href: "#about", name: "About" },
+  { href: "#menu", name: "Menu" },
+  { href: "/contact", name: "Contact" },
 ];
+
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
           {/* logo */}
           <Link href="/" className="relative w-[120px] h-[50px] mx-auto">
             <Image
-              src="/assets/logo.svg"
+              src="/assets/logo.png"
               fill
               alt="logo"
               className="object-contain"
@@ -70,7 +71,7 @@ const Footer = () => {
           </ul>
           {/* copyright */}
           <div className="border-t border-white/10 text-[15px] text-white/70 font-light w-full flex items-center justify-center py-6">
-            <p>&copy; Copyright 2022. All rights reserved</p>
+            <p>&copy; Copyright 2022 - seanKopi. All rights reserved</p>
           </div>
         </div>
       </div>

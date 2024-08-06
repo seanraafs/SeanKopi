@@ -26,7 +26,6 @@ const Home = () => {
       <Menu />
       <Testimonials/>
       <OpeningHours/>
-      {/* temp div */}
     </div>
   );
 };

@@ -67,7 +67,7 @@ const menuItems = [
 
 const Menu = () => {
   return (
-    <section className="pt-12 pb-16 xl:pt-16 xl:pb-36">
+    <section className="pt-12 pb-16 xl:pt-16 xl:pb-36" id="menu">
       <div className="container mx-auto">
         <div className="flex flex-col gap-4 mb-12 xl:mb-24">
           <h2 className="h2 text-center">Our Menu</h2>
@@ -96,7 +96,9 @@ const Menu = () => {
               );
             })}
           </div>
-          <button className="btn">View Full Menu</button>
+          <a href="/menu">
+            <button className="btn">View Full Menu</button>
+          </a>
         </div>
       </div>
     </section>

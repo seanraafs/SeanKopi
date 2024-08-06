@@ -14,10 +14,10 @@ const Header = () => {
           {/* Logo */}
           <Link
             href="/"
-            className="relative w-[100px] h-[40px] xl:w-[120px] xl:h-[40px] z-[60]"
+            className="relative w-[120px] h-[80px] xl:w-[200px] xl:h-[100px] z-[60]" // Ukuran lebih besar
           >
             <Image
-              src="/assets/logo.svg"
+              src="/assets/logo.png"
               fill
               alt="logo"
               className="object-contain"
