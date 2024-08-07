@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 // icons
-import { FaYoutube, FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaGithub,
+} from "react-icons/fa";
 
 const links = [
   { href: "/", name: "Home" },
@@ -10,7 +13,6 @@ const links = [
   { href: "#menu", name: "Menu" },
   { href: "/contact", name: "Contact" },
 ];
-
 
 const Footer = () => {
   return (
@@ -45,25 +47,13 @@ const Footer = () => {
           {/* social */}
           <ul className="flex text-white text-xl gap-4">
             <Link
-              href="/"
+              href="https://github.com/seanraafs" target="_blank"
               className="w-[54px] h-[54px] border border-white/[0.15] rounded-full flex items-center justify-center hover:text-accent transition-all"
             >
-              <FaYoutube />
+              <FaGithub />
             </Link>
             <Link
-              href="/"
-              className="w-[54px] h-[54px] border border-white/[0.15] rounded-full flex items-center justify-center hover:text-accent transition-all"
-            >
-              <FaFacebookF />
-            </Link>
-            <Link
-              href="/"
-              className="w-[54px] h-[54px] border border-white/[0.15] rounded-full flex items-center justify-center hover:text-accent transition-all"
-            >
-              <FaTwitter />
-            </Link>
-            <Link
-              href="/"
+              href="https://instagram.com/seanraafs" target="_blank"
               className="w-[54px] h-[54px] border border-white/[0.15] rounded-full flex items-center justify-center hover:text-accent transition-all"
             >
               <FaInstagram />
@@ -71,7 +61,7 @@ const Footer = () => {
           </ul>
           {/* copyright */}
           <div className="border-t border-white/10 text-[15px] text-white/70 font-light w-full flex items-center justify-center py-6">
-            <p>&copy; Copyright 2022 - seanKopi. All rights reserved</p>
+            <p>&copy; Copyright 2024 - seanKopi. All rights reserved</p>
           </div>
         </div>
       </div>

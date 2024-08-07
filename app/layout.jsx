@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body className={`${cormorant_upright.variable} ${open_sans.variable}`}>
         <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

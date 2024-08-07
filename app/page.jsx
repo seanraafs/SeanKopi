@@ -1,4 +1,5 @@
 "use client";
+import "../components/Scrollbar/scroll.css";
 import { useEffect } from "react";
 // Components
 import Hero from "@/components/Hero";
@@ -24,8 +25,8 @@ const Home = () => {
       <Explore />
       <About />
       <Menu />
-      <Testimonials/>
-      <OpeningHours/>
+      <Testimonials />
+      <OpeningHours />
     </div>
   );
 };

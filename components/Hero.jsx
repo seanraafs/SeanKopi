@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="h-[100vh] xl:h-screen relative text-white">
       {}
       <div className="bg-hero_overlay absolute w-full h-full z-10 bg-primary/[0.93]">
-        {/* s */}
+        {/* videos */}
       </div>
       <video
         autoPlay

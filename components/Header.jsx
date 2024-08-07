@@ -14,7 +14,7 @@ const Header = () => {
           {/* Logo */}
           <Link
             href="/"
-            className="relative w-[120px] h-[80px] xl:w-[200px] xl:h-[100px] z-[60]" // Ukuran lebih besar
+            className="relative w-[120px] h-[80px] xl:w-[200px] xl:h-[100px] z-[60]" 
           >
             <Image
               src="/assets/logo.png"
